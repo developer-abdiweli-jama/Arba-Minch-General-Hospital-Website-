@@ -1,211 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login - Arba Minch General Hospital</title>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Arba Minch General Hospital</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="../assets/Css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-    />
-  </head>
-  <body class="bg-gray-100 font-sans">
+    <link rel="stylesheet" href="../assets/Css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+
+<body>
     <!-- Top Navigation Bar -->
     <header class="bg-blue-900 text-white py-2">
-      <div
-        class="container mx-auto flex justify-between items-center text-sm flex-wrap px-4"
-      >
-        <!-- Logo and Hospital Name -->
-        <div class="flex items-center space-x-4">
-          <img
-            src="../assets/images/Logo.png"
-            alt="Arba Minch General Hospital Logo"
-            class="h-10"
-          />
-          <span class="font-bold text-xl">ARBA-MINCH-GH</span>
-        </div>
+        <div class="container mx-auto flex justify-between items-center text-sm flex-wrap px-4">
+            <!-- Logo and Hospital Name -->
+            <div class="flex items-center space-x-4">
+                <img src="../assets/images/Logo.png" alt="Arba Minch General Hospital Logo" class="h-10">
+                <span class="font-bold text-xl">ARBA-MINCH-GH</span>
+            </div>
 
-        <!-- Emergency, Work Hours, Location -->
-        <div
-          class="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-6 text-center sm:text-left mt-2 sm:mt-0"
-        >
-          <div class="flex items-center space-x-2">
-            <span class="font-bold">EMERGENCY:</span>
-            <span>(+251) 681-812-255</span>
-          </div>
-          <div class="flex items-center space-x-2">
-            <span class="font-bold">WORK HOURS:</span>
-            <span>24/7</span>
-          </div>
-          <div class="flex items-center space-x-2">
-            <span class="font-bold">LOCATION:</span>
-            <span>0123 Arba Minch City</span>
-          </div>
+            <!-- Emergency, Work Hours, Location -->
+            <div
+                class="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-6 text-center sm:text-left mt-2 sm:mt-0">
+                <div class="flex items-center space-x-2">
+                    <span class="font-bold">EMERGENCY:</span>
+                    <span>(+251) 681-812-255</span>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <span class="font-bold">WORK HOURS:</span>
+                    <span>24/7</span>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <span class="font-bold">LOCATION:</span>
+                    <span>0123 Arba Minch City</span>
+                </div>
+            </div>
         </div>
-      </div>
     </header>
 
     <!-- Navbar -->
     <nav class="bg-white shadow-md" aria-label="Main Navigation">
-      <div
-        class="container mx-auto flex justify-between items-center p-4 flex-wrap"
-      >
-        <!-- Left Side: Navigation Links -->
-        <div class="flex space-x-8 flex-wrap">
-          <a
-            href="../front-end/index.html"
-            class="text-gray-700 hover:text-blue-600 font-semibold"
-            >Home</a
-          >
-          <a
-            href="../front-end/about.html"
-            class="text-gray-700 hover:text-blue-600 font-semibold"
-            >About Us</a
-          >
-          <a
-            href="../front-end/services.html"
-            class="text-gray-700 hover:text-blue-600 font-semibold"
-            >Services</a
-          >
-          <a
-            href="../front-end/doctors.html"
-            class="text-gray-700 hover:text-blue-600 font-semibold"
-            >Doctors</a
-          >
-          <a
-            href="../front-end/appointment.html"
-            class="text-gray-700 hover:text-blue-600 font-semibold"
-            >Appointment</a
-          >
-          <a
-            href="../front-end/contact.html"
-            class="text-gray-700 hover:text-blue-600 font-semibold"
-            >Contact</a
-          >
-        </div>
+        <div class="container mx-auto flex justify-between items-center p-4 flex-wrap">
+            <!-- Left Side: Navigation Links -->
+            <div class="flex space-x-8 flex-wrap">
+                <a href="../front-end/index.html" class="text-gray-700 hover:text-blue-600 font-semibold">Home</a>
+                <a href="../front-end/about.html" class="text-gray-700 hover:text-blue-600 font-semibold">About Us</a>
+                <a href="../front-end/services.html" class="text-gray-700 hover:text-blue-600 font-semibold">Services</a>
+                <a href="../front-end/doctors.html" class="text-gray-700 hover:text-blue-600 font-semibold">Doctors</a>
+                <a href="../front-end/appointment.html" class="text-gray-700 hover:text-blue-600 font-semibold">Appointment</a>
+                <a href="../front-end/contact.html" class="text-gray-700 hover:text-blue-600 font-semibold">Contact</a>
+            </div>
 
-        <!-- Right Side: Login and Signup Buttons -->
-        <div class="flex space-x-2">
-          <a
-            href="../front-end/login.html"
-            class="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700"
-            >Login</a
-          >
-          <a
-            href="../front-end/register.html"
-            class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold border border-blue-600 hover:bg-blue-50"
-            >Signup</a
-          >
+            <!-- Right Side: Login and Signup Buttons -->
+            <div class="flex space-x-2">
+                <a href="../front-end/login.html"
+                    class="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700">Login</a>
+                <a href="../front-end/register.html"
+                    class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold border border-blue-600 hover:bg-blue-50">Signup</a>
+            </div>
         </div>
-      </div>
     </nav>
 
-    <!-- Login Form -->
+    <!-- Main Content -->
     <main class="container mx-auto p-8">
-      <section class="bg-white p-8 rounded-lg shadow-md max-w-md mx-auto">
-        <h2 class="text-3xl font-bold mb-6 text-blue-900">Login</h2>
-        <form action="../back-end/login.php" method="POST">
-          <div class="mb-4">
-            <label for="username" class="block text-gray-700 font-semibold mb-2"
-              >Username</label
-            >
-            <input
-              type="text"
-              id="username"
-              name="username"
-              class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-              required
-            />
-          </div>
-          <div class="mb-4">
-            <label for="password" class="block text-gray-700 font-semibold mb-2"
-              >Password</label
-            >
-            <input
-              type="password"
-              id="password"
-              name="password"
-              class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-              required
-            />
-          </div>
-          <button
-            type="submit"
-            class="bg-blue-600 text-white p-3 rounded-lg w-full font-semibold hover:bg-blue-700 transition duration-300"
-          >
-            Login
-          </button>
-        </form>
-        <p class="mt-4 text-center text-gray-600">
-          Don't have an account?
-          <a
-            href="../front-end/register.html"
-            class="text-blue-600 hover:underline"
-            >Sign up</a
-          >
-        </p>
-      </section>
+        <!-- About Us Section -->
+        <section class="mb-12">
+            <h2 class="text-4xl font-bold mb-6 " style="color: #1F2B6C;">About Us</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Left Side: Image -->
+                <div>
+                    <img src="../assets/images/Arba_Minch_General_Hospital_Front_Gate.jpg" alt="About Us Image"
+                        class="rounded-lg shadow-lg">
+                </div>
+                <!-- Right Side: Text Content -->
+                <div class="text-gray-700">
+                    <p class="mb-4">
+                        Arba Minch General Hospital is a leading healthcare provider in the region, offering a wide
+                        range of medical services. Our mission is to deliver exceptional patient care with compassion,
+                        innovation, and excellence.
+                    </p>
+                    <p class="mb-4">
+                        Established in 1985, we have grown to become a trusted name in healthcare, serving thousands of
+                        patients annually. Our team of highly skilled doctors, nurses, and staff are dedicated to
+                        improving the health and well-being of our community.
+                    </p>
+                    <p class="mb-4">
+                        We are equipped with state-of-the-art facilities and cutting-edge technology to ensure the
+                        highest standards of medical care. From emergency services to specialized treatments, we are
+                        committed to meeting the diverse healthcare needs of our patients.
+                    </p>
+                    <a href="#"
+                        class="bg-blue-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-700 inline-block mt-4">Learn
+                        More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mission and Vision Section -->
+        <section class="mb-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Mission -->
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-bold text-blue-900 mb-4">Our Mission</h3>
+                    <p class="text-gray-700">
+                        To provide high-quality, patient-centered healthcare services that improve the lives of
+                        individuals and communities we serve.
+                    </p>
+                </div>
+                <!-- Vision -->
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-bold text-blue-900 mb-4">Our Vision</h3>
+                    <p class="text-gray-700">
+                        To be the leading healthcare institution in the region, recognized for excellence in medical
+                        care, innovation, and community service.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Values Section -->
+        <section class="mb-12">
+            <h3 class="text-3xl font-bold text-blue-900 mb-6">Our Core Values</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Value 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h4 class="text-xl font-bold text-blue-900 mb-2">Compassion</h4>
+                    <p class="text-gray-700">
+                        We treat every patient with empathy, kindness, and respect.
+                    </p>
+                </div>
+                <!-- Value 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h4 class="text-xl font-bold text-blue-900 mb-2">Excellence</h4>
+                    <p class="text-gray-700">
+                        We strive for the highest standards in medical care and service delivery.
+                    </p>
+                </div>
+                <!-- Value 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h4 class="text-xl font-bold text-blue-900 mb-2">Innovation</h4>
+                    <p class="text-gray-700">
+                        We embrace new technologies and practices to improve patient outcomes.
+                    </p>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <!-- Contact Section -->
+    <section class="bg-white text-blue-900 py-12">
+        <div class="container mx-auto p-4">
+            <h2 class="section-title text-center text-3xl font-bold mb-8">GET IN TOUCH</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                <!-- Contact Box -->
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center" style="color: #1F2B6C;">
+                    <i class="fas fa-phone-alt text-4xl mb-4"></i>
+                    <h3 class="font-bold text-xl mb-4">CONTACT</h3>
+                    <p class="mt-2">(251)681-812-255</p>
+                    <p class="mt-2">(251)666-331-894</p>
+                </div>
+
+                <!-- Location Box -->
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center" style="color: #1F2B6C;">
+                    <i class="fas fa-map-marker-alt text-4xl mb-4"></i>
+                    <h3 class="font-bold text-xl mb-4">LOCATION</h3>
+                    <p class="mt-2">0123 Arba Minch City</p>
+                    <p class="mt-2">9876, Arba Minch Ethiopia</p>
+                </div>
+
+                <!-- Email & Working Hours Box -->
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center" style="color: #1F2B6C;">
+                    <i class="fas fa-envelope text-4xl mb-4"></i>
+                    <h3 class="font-bold text-xl mb-4">EMAIL & WORKING HOURS</h3>
+                    <p class="mt-2">arbaminchgh@moh.et</p>
+                    <p class="mt-2">Mon-Sat 00:00-23:00</p>
+                    <p class="mt-2">Sunday Emergency only</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer Section -->
     <footer class="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-6">
-      <div
-        class="container mx-auto p-4 flex justify-between items-center flex-wrap"
-      >
-        <div>
-          <h3 class="font-bold text-xl">Important Links</h3>
-          <ul class="mt-2">
-            <li>
-              <a href="contact.html" class="hover:text-blue-300">Contact Us</a>
-            </li>
-            <li>
-              <a href="about.html" class="hover:text-blue-300">About Us</a>
-            </li>
-            <li>
-              <a href="appointment.html" class="hover:text-blue-300"
-                >Appointment</a
-              >
-            </li>
-            <li>
-              <a href="Doctors.html" class="hover:text-blue-300">Doctors</a>
-            </li>
-            <li>
-              <a href="services.html" class="hover:text-blue-300">Services</a>
-            </li>
-            <li><a href="index.html" class="hover:text-blue-300">Home</a></li>
-          </ul>
+        <div class="container mx-auto p-4 flex justify-between items-center flex-wrap">
+            <div>
+                <h3 class="font-bold text-xl">Important Links</h3>
+                <ul class="mt-2">
+                    <li><a href="contact.html" class="hover:text-blue-300">Contact Us</a></li>
+                    <li><a href="about.html" class="hover:text-blue-300">About Us</a></li>
+                    <li><a href="appointment.html" class="hover:text-blue-300">Appointment</a></li>
+                    <li><a href="Doctors.html" class="hover:text-blue-300">Doctors</a></li>
+                    <li><a href="services.html" class="hover:text-blue-300">Services</a></li>
+                    <li><a href="index.html" class="hover:text-blue-300">Home</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-bold text-xl">Newsletter</h3>
+                <form class="mt-2">
+                    <input type="email" placeholder="Enter your email address" class="p-2 rounded text-black">
+                    <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded ml-2">Subscribe</button>
+                </form>
+            </div>
+            <div>
+                <h3 class="font-bold text-xl">Contact Information</h3>
+                <p class="mt-2">Call: (251)681-812-255</p>
+                <p class="mt-2">Email: arbaminchgh@moh.et</p>
+                <p class="mt-2">Address: 9876 Arba Minch City, Ethiopia</p>
+            </div>
         </div>
-        <div>
-          <h3 class="font-bold text-xl">Newsletter</h3>
-          <form class="mt-2">
-            <input
-              type="email"
-              placeholder="Enter your email address"
-              class="p-2 rounded text-black"
-            />
-            <button
-              type="submit"
-              class="bg-blue-600 text-white px-4 py-2 rounded ml-2"
-            >
-              Subscribe
-            </button>
-          </form>
+        <div class="text-center mt-4">
+            <p>&copy; 2025 Arba Minch General Hospital. All Rights Reserved by HIRGAL NEXUS</p>
         </div>
-        <div>
-          <h3 class="font-bold text-xl">Contact Information</h3>
-          <p class="mt-2">Call: (251)681-812-255</p>
-          <p class="mt-2">Email: arbaminchgh@moh.et</p>
-          <p class="mt-2">Address: 9876 Arba Minch City, Ethiopia</p>
-        </div>
-      </div>
-      <div class="text-center mt-4">
-        <p>
-          &copy; 2025 Arba Minch General Hospital. All Rights Reserved by HIRGAL
-          NEXUS
-        </p>
-      </div>
     </footer>
-  </body>
+</body>
+
+
 </html>
